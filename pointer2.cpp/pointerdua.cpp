@@ -2,6 +2,7 @@
 using namespace std;
 
 class Mahasiswa{
+    public:
     int nim;
     void showNim()
     {
@@ -12,7 +13,7 @@ class Mahasiswa{
 
 int main()
 {
-    Mahasiswa *mhs = new Mahasiswa(1);
+    Mahasiswa *mhs = new Mahasiswa{1};
     mhs ->nim = 2;
     mhs ->showNim();
     delete mhs;
