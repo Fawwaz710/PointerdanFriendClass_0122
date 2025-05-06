@@ -2,7 +2,7 @@
 using namespace std;
 
 class pelajar;
-class mahasiswa{
+class manusia{
     public:
     void showNilaiPelajar(pelajar&x);
 };
