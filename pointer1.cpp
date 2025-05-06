@@ -1,4 +1,6 @@
 #include <iostream>
 using namespace std;
 
-class PersegiPanjang{}
+class PersegiPanjang{
+    public: //akses modifier
+}
