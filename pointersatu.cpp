@@ -8,3 +8,6 @@ class Mahasiswa{
     }
 };
 
+int main(){
+    mahasiswa mhs(1);
+}
