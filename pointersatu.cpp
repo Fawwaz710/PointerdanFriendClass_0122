@@ -9,10 +9,15 @@ class Mahasiswa{
 };
 
 int main(){
-    Mahasiswa mhs(1);
+    Mahasiswa mhs{1};
     mhs.showNim();
 
     Mahasiswa &refMhs = mhs;
+    refMhs.nim =  2;
+    mhs.showNim();
+
+    mahasiswa *pMhs = &mhs;
+
 
 
 }
