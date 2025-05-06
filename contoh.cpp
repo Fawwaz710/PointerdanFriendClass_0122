@@ -31,4 +31,11 @@ class Lingkaran {
         return 3.14 * r * r;
     }
 };
-    PersegiPanjang objekPP; // membuat objek 
+int main()
+{
+    PersegiPanjang objekPP; // membuat objek
+    Lingkaran ol;
+    
+    
+   
+};
